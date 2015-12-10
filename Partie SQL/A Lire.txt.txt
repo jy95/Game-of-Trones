@@ -1,0 +1,15 @@
+-- Les users sont supposés exister : Au cas ou, voici le code sql pour les créer (dans la database postgres)
+
+CREATE USER client WITH PASSWORD 'jw8s0F4';
+CREATE USER maison WITH PASSWORD 'jw8s06F';
+
+-- Ensuite , le nom par défaut de la database ici est dbmaison
+-- Exécutez ensuite dans ce ordre les différentes parties du codes
+
+1) create table.sql
+2) fonctions.sql
+3) trigger.sql
+4) create view.sql
+5) users.sql
+
+-- Enjoy

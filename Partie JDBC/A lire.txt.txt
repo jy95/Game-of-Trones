@@ -1,0 +1,5 @@
+-- Pour que la connexion puisse s'établir correctement , pensez à effectuer ceci :
+* Postgresql installé
+* Un projet avec le driver (se trouvant dans lib) postgresql-9.3-1102.jdbc41 ajouté au build path
+* Les fichiers sources copiés dans src
+* Modifiez les paramètres de la méthode DriverManager.getConnection(....) (ligne 23) , présents aux lignes 17 à 19 selon votre configuration
